@@ -1,0 +1,32 @@
+.header {
+    width: 100vw;
+    background-color: #9CF1F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  /* UHD (3840x2160) 이하 해상도 */
+@media screen and (max-width: 3840px) {
+  .header {
+    height: 10.42vh;
+  }
+}
+
+/* QHD (2560x1440) 이하 해상도 */
+@media screen and (max-width: 2560px) {
+  .header {
+    height: 10.42vh;
+  }
+}
+
+  /* FHD (1920x1080) 이하 해상도 */
+@media screen and (max-width: 1920px) {
+  .header {
+    height: 5.42vh;
+  }
+}
+
+
+
